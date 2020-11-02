@@ -4,7 +4,10 @@
     margin: 0;
 }
 
-/* Start styles to <header> */
+body {
+    background-color: #d9dcd6;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +24,7 @@
     color: #d9dcd6;
 }
 
-.header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,31 +32,24 @@
     font-size: 20px;
 }
 
-.header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* End styles to <header> */
 
-/* apply styles to <body> */
-body {
-    background-color: #d9dcd6;
-}
-
-/* apply styles to <a> */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* apply styles to <a> */
+
 p {
     font-size: 16px;
 }
-/* start styles to Hero  */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -78,9 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* end styles to Hero  */
 
-/* start styles to benefits  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,9 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* end styles to benefits sections  */
 
-/* start styles to services sections  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -195,17 +187,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* end styles to services sections  */
 
-/* start footer style settings  */
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
-/* end footer style settings  */
