@@ -14,3 +14,4 @@ It is meant to showcase how one can realign and reorganize html and css code in 
  - I updated CSS code to reflect logic that applied to multiple segments. 
  - I created a markdown file, confirmed file loads on github webpage. 
 
+https://thekelsc.github.io/Challenge-1/ 
